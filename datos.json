@@ -1,0 +1,14 @@
+{
+  "pcs": [
+    { "nombre": "PC Oficina Básico", "precio": 350, "rendimiento": 40, "ventas": 80, "uso": "oficina" },
+    { "nombre": "PC Gamer 1080p", "precio": 700, "rendimiento": 70, "ventas": 95, "uso": "gaming" },
+    { "nombre": "PC Gamer Pro", "precio": 1200, "rendimiento": 90, "ventas": 70, "uso": "gaming" },
+    { "nombre": "PC Edición Video", "precio": 1500, "rendimiento": 95, "ventas": 60, "uso": "edicion" }
+  ],
+  "trucos": [
+    { "so": "Windows", "titulo": "Desactivar apps de inicio", "texto": "Abre el Administrador de tareas (Ctrl+Shift+Esc) > pestaña Inicio > desactiva lo que no necesites." },
+    { "so": "Windows", "titulo": "Activar modo juego", "texto": "Configuración > Juegos > Modo de juego > Activado." },
+    { "so": "Linux", "titulo": "Ajustar swappiness", "texto": "Ejecuta: sudo sysctl vm.swappiness=10 para usar más la RAM y menos el disco." },
+    { "so": "macOS", "titulo": "Quitar elementos de inicio", "texto": "Ajustes del Sistema > General > Ítems de inicio y extensiones." }
+  ]
+}
